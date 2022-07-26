@@ -9,7 +9,7 @@ import { store } from './state/store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    // wrap root so all components have access to store
+    {/* wrap root so all components have access to store */}
     <Provider store={store}>
       <App />
    </Provider>
